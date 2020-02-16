@@ -4,7 +4,16 @@ select {
 
 .container {
    text-align: center;
- 
+   background-color: skyblue;
 }
     
+.jumbotron {
+    height: 200px;
+    column-count: 3;
+    column-rule: 5px solid silver;
+}
 
+h1 {
+    column-span: all;
+    text-align: center;
+}
