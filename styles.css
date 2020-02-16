@@ -4,24 +4,33 @@ select {
 
 .container {
    text-align: center;
-   background-color: cadetblue;
+   background-color: silver;
+   height: 500px;
 }
     
-
-
 .jumbotron {
-    height: 200px;
+    height: 300px;
     column-count: 3;
     column-rule: 5px solid silver;
+    background-image: url(images/akan.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1 {
     column-span: all;
     text-align: center;
-    color: cadetblue;
+    color: silver;
 }
 
 h4 {
     padding-bottom: 0px;
     margin-bottom: 0px;
+}
+
+p {
+    color: white;
+    text-size-adjust: 20px;
+    margin: 15px;
 }

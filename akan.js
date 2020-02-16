@@ -19,7 +19,7 @@ function getName(){
     var day = new Date(year + "/" + month + "/" + day);
     var birthDay = day.getDay();
     if(male.checked==true){
-       alert("You were born on " +daysOfWeek[birthDay]+ " and Your Akan name is " + maleAkanNames[birthDay])
+       console.log("You were born on " +daysOfWeek[birthDay]+ " and Your Akan name is " + maleAkanNames[birthDay])
     }
     else if(female.checked==true){
        alert("You were born on " +daysOfWeek[birthDay]+ " and Your Akan name is " + femaleAkanNames[birthDay])
