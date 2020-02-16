@@ -4,9 +4,11 @@ select {
 
 .container {
    text-align: center;
-   background-color: skyblue;
+   background-color: cadetblue;
 }
     
+
+
 .jumbotron {
     height: 200px;
     column-count: 3;
@@ -16,4 +18,10 @@ select {
 h1 {
     column-span: all;
     text-align: center;
+    color: cadetblue;
+}
+
+h4 {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
 }
