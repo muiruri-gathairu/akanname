@@ -9,62 +9,16 @@
 <body>
     <div class="jumbotron">
         <h1>THE AKAN NAME GENERATOR:</h1>
-        <h3>Find Your Akan Name Here:</h3>
-    </div>
-    <div class="container mycard">
-        <h2 class="card-title text-center howit">
-            How It Works
-        </h2>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card m-4">
-                    <div class="cardx">
-                        <p>Year</p>
-                    </div>
-                    <div class="card-body">
-                        <h4 class="card-title">Enter Year Of Birth</h4>
-                        <p class="card-text">
-                            Enter The year you were born so as to generate your akan
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card m-4">
-                    <div class="cardx">
-                        <p>Month</p>
-                    </div>
-                    <div class="card-body">
-                        <h4 class="card-title">Enter Month Of Birth</h4>
-                        <p class="card-text">
-                            Enter The month you were born so as to generate your akan
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card m-4">
-                    <div class="cardx">
-                        <p>Date</p>
-                    </div>
-                    <div class="card-body">
-                        <h4 class="card-title">Enter Date Of Birth</h4>
-                        <p class="card-text">
-                            Enter The date you were born so as to generate your akan
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
     <div class="container">
         <form>
             <div class="form-group " onsubmit="event.preventDefault()">
-                <label for="Year">Year Of Birth</label>
+                <label for="Year">Year Of Birth</label><br/>
                 <input type="text" class="form-control" id="year" placeholder="Enter the year">
             </div>
+            <br/><br/>
             <div class="form-group">
-                <label for="Month">Month of birth</label>
+                <label for="Month">Month of birth</label><br/>
                 <select class="form-control" id="month">
                     <option>1</option>
                     <option>2</option>
@@ -80,8 +34,9 @@
                     <option>12</option>
                 </select>
             </div>
+            <br/><br/>
             <div class="form-group">
-                <label for="Date">Date Of Birth</label>
+                <label for="Date">Date Of Birth</label><br/>
                 <select class="form-control" id="day">
                     <option>1</option>
                     <option>2</option>
@@ -116,8 +71,10 @@
                     <option>31</option>
                 </select>
             </div>
+            <br/><br/>
             <div class="form-group">
                 <div>
+                    <h4>gender</h4>
                     <label for="radio" class="radio-inline">
                         <input type="radio" value="male" name="gender" id="male" required />
                         Male </label><br />
@@ -128,6 +85,7 @@
                 </div>
             </div>
         </form>
+        <br/><br/>
         <button type="submit" onclick="getName()" onsubmit="event.preventDefault()"
             class="btn btn-outline-primary">submit</button>
         <button type="Reset" onclick="getName()" onsubmit="event.preventDefault()"
