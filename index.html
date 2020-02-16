@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <script src="akan.js"></script>
+    <title>Akan Name</title>
+</head>
+<body>
+    <div class="jumbotron">
+        <h1>AKAN NAME GENERATOR</h1>
+        <p>
+            Akan names are derived from Ghanian culture. Frequently in Ghana , children are given their first name as a day name which corresponds to the day in the week they were born. <br/><br/>
+            This is an akan name generator with which you can get to know your akan name by inputting your year, month and day of birth and also gender.<br/><br/>
+            Fill in the required information below to find out what your akan name is.
+
+        </p>
+    </div>
+    <div class="container">
+        <form>
+            <div class="form" onsubmit="event.preventDefault()">
+                <br/>
+                <label for="Year">Year Of Birth</label><br/>
+                <input type="text" class="form-control" id="year" placeholder="Enter the year">
+            </div>
+            <br/><br/>
+            <div class="form">
+                <label for="Month">Month of birth</label><br/>
+                <select id="month">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                </select>
+            </div>
+            <br/><br/>
+            <div class="form">
+                <label for="Date">Date Of Birth</label><br/>
+                <select id="day">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                    <option>13</option>
+                    <option>14</option>
+                    <option>15</option>
+                    <option>16</option>
+                    <option>17</option>
+                    <option>18</option>
+                    <option>19</option>
+                    <option>20</option>
+                    <option>21</option>
+                    <option>22</option>
+                    <option>23</option>
+                    <option>24</option>
+                    <option>25</option>
+                    <option>26</option>
+                    <option>27</option>
+                    <option>28</option>
+                    <option>29</option>
+                    <option>30</option>
+                    <option>31</option>
+                </select>
+            </div>
+            <br/><br/>
+            <div class="form">
+                <div>
+                    <h4>gender</h4>
+                    <label for="radio" class="radio-inline">
+                        <input type="radio" value="male" name="gender" id="male" required />
+                        Male </label><br />
+                    <label for="radio" class="radio-inline">
+                        <input type="radio" value="male" name="gender" id="female" required />
+                        Female
+                    </label>
+                </div>
+            </div>
+        </form>
+        <br/><br/>
+        <button type="submit" onclick="getName()" onsubmit="event.preventDefault()"
+            class="btn btn-outline-primary">submit</button>
+    </div>
+</body>
+</html>
