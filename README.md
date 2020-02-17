@@ -20,7 +20,9 @@ ERROR: an error message is displayed if user input is not a number or if day of 
 
 ## technologies used
 html: for basic webpage structure
+
 css: for styling the webpage
+
 javascript: provides algorithm for backend calculations
 
 ## license and copyright
