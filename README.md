@@ -11,8 +11,11 @@ to contact the author send an email to muirurigathairu@gmail.com
 
 ## BDD
 INPUT: the user inputs his or her birhday date in terms of year, month and day
+
 OUTPUT: the user gets back his or her akan name
+
 HOW IT WORKS: the javascript functions in the backend use a predetermined algorithm to get user's akan name based on birthday date and gender.
+
 ERROR: an error message is displayed if user input is not a number or if day of month inputted exceeds 31.
 
 ## technologies used
