@@ -8,7 +8,7 @@ select {
    height: 500px;
 }
     
-.jumbotron {
+.moi {
     height: 300px;
     column-count: 3;
     column-rule: 5px solid silver;
